@@ -41,7 +41,7 @@ public class KahootGpt implements KeyListener {
         coordinates.add(new ArrayList<>(List.of(680, 580, 500, 120)));
 
         tesseract = new Tesseract();
-        tesseract.setDatapath("C:\\Users\\bakin\\Downloads\\Tess4J\\tessdata");
+        tesseract.setDatapath(""); // add your path for Tesseract configurations
     }
 
     public void start() {
