@@ -125,12 +125,7 @@ public class KahootGpt implements KeyListener {
         } catch (AWTException e){
             e.printStackTrace();
         }
-       
-        
-        
     }
-
-
 
     @Override
     public void keyTyped(KeyEvent e) {
